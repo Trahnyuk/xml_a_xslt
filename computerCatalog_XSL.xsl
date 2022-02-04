@@ -1,498 +1,235 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsl:stylesheet version="1.0"
-                xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    
+<!DOCTYPE xsl:stylesheet
+  [
+    <!ENTITY    lt     "&#x3C;">
+    <!ENTITY    gt     "&#x3E;">
+    <!ENTITY    mdash  "&#x2014;">
+  ]
+>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                version="1.0">
+
     <xsl:template match="/">
-        <html>
-            <head><title>&#x3C;flatComputerCatalog&#x3E;</title></head>
-            <body>
 
-                <h1>&lt;flatComputerCatalog&gt;</h1>
+        &#x3C;flatComputerCatalog&#x3E;
 
-                        <h2>&lt;HARDWARE&gt;</h2>
+        &#x3C;HARDWARE&#x3E;
 
-                            <!--GRAPHIC CARDS-->
-                            <h3>&lt;Graphic cards&gt;</h3>
-                                <!--MSI graphic-->
-                                     <h4>&lt;graphic_card &quot;msi&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_msi/graphic_card">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="model"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                        </xsl:for-each>
-                                     <br/>
+        &lt;Graphic cards&gt;
 
-                                <!--Inno3d graphic-->
-                                     <h4>&lt;graphic_card &quot;msi&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_inno3d/graphic_card">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="model"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                         </p>
-                                        </xsl:for-each>
-                                    <br/>
+        &lt;graphic_card &quot;msi&quot;&gt;
+        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_msi/graphic_card">
+            &lt;part&gt;<xsl:value-of select="name"/> <xsl:value-of select="model"/> &#x2014; <xsl:value-of select="price"/>,- &lt;part&gt;
+        </xsl:for-each>
 
-                                <!--Palit graphic-->
-                                     <h4>&lt;graphic_card &quot;msi&quot;&gt;</h4>
-                                         <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_palit/graphic_card">
-                                         <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="model"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                         </p>
-                                        </xsl:for-each>
-                                    <br/>
+        <!--Inno3d graphic-->
+        &lt; graphic_card &quot;inno3d&quot; &gt;
+        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_inno3d/graphic_card">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
-                                <!--Evga graphic-->
-                                    <h4>&lt;graphic_card &quot;msi&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_evga/graphic_card">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="model"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                        </xsl:for-each>
-                                    <br/>
+        <!--Palit graphic-->
+        &lt;graphic_card &quot;palit&quot;&gt;
+        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_palit/graphic_card">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
-                                <!--Gainward graphic-->
-                                    <h4>&lt;graphic_card &quot;msi&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_gainward/graphic_card">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="model"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                         </xsl:for-each>
-                                    <br/>
+        <!--Evga graphic-->
+        &lt;graphic_card &quot;evga&quot;&gt;
+        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_evga/graphic_card">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
-                                <!--Asus graphic-->
-                                    <h4>&lt;graphic_card &quot;msi&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_asus/graphic_card">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="model"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                        </xsl:for-each>
-                                    <br/>
+        <!--Gainward graphic-->
+        &lt;graphic_card &quot;gainward&quot;&gt;
+        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_gainward/graphic_card">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
 
-                            <!--PROCESSORS-->
-                            <h3>&lt;Processors&gt;</h3>
-                                    <h4>&lt;Processors &quot;intel&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/processors/processor_intel/processor">
-                                            <p>
-                                                <span>&lt;part&gt;</span>
-                                                <span><xsl:value-of select="name"/></span>
-                                                <span><xsl:value-of select="model"/></span>
-                                                <span>&#x2014;</span>
-                                                <span><xsl:value-of select="price"/></span>
-                                                <span>,-</span>
-                                                <span>&lt;/part&gt;</span>
-                                            </p>
-                                        </xsl:for-each>
-
-                                    <h4>&lt;Processors &quot;amd&quot;&gt;</h4>
-                                        <xsl:for-each select="computer/hardware/processors/processor_amd/processor">
-                                            <p>
-                                                <span>&lt;part&gt;</span>
-                                                <span><xsl:value-of select="name"/></span>
-                                                <span><xsl:value-of select="model"/></span>
-                                                <span>&#x2014;</span>
-                                                <span><xsl:value-of select="price"/></span>
-                                                <span>,-</span>
-                                                <span>&lt;/part&gt;</span>
-                                            </p>
-                                        </xsl:for-each>
-                                     <br/>
+        <!--Asus graphic-->
+        &lt;graphic_card &quot;asus&quot;&gt;
+        <xsl:for-each select="computer/hardware/graphic_cards/graphic_card_asus/graphic_card">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
 
 
-                        <h2>&lt;Monitors&gt;</h2>
+        <!--PROCESSORS-->
+        &lt;Processors&gt;
 
-                            <!--FULL HD-->
-                            <h3>&lt;Monitor Full HD&gt;</h3>
+        &lt;Processors &quot;intel&quot;&gt;
+        <xsl:for-each select="computer/hardware/processors/processor_intel/processor">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
-                                    <h4>full_hd_apple</h4>
-                                        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_apple/full_hd">
-                                            <p>
-                                                <span>&lt;part&gt;</span>
-                                                <span><xsl:value-of select="name"/></span>
-                                                <span><xsl:value-of select="diagonal"/></span>
-                                                <span>&#x2014;</span>
-                                                <span><xsl:value-of select="price"/></span>
-                                                <span>,-</span>
-                                                <span>&lt;/part&gt;</span>
-                                            </p>
-                                        </xsl:for-each>
-                                    <br/>
-
-                                    <h4>full_hd_eizo</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_eizo/full_hd">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>full_hd_samsung</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_samsung/full_hd">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>full_hd_acer</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_acer/full_hd">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>full_hd_aoc</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_aoc/full_hd">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>full_hd_corsair</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_corsair/full_hd">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>full_hd_viewsonic</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_viewsonic/full_hd">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-
-                            <!--4K-->
-                            <h3>&lt;Monitor 4K&gt;</h3>
-
-                                    <h4>monitors_4k_lg</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_lg/monitors_4k">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>monitors_4k_samsung</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_samsung/monitors_4k">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>monitors_4k_triumph_board</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_triumph_board/monitors_4k">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>monitors_4k_gigabyte</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_gigabyte/monitors_4k">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>monitors_4k_panasonic</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_panasonic/monitors_4k">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>monitors_4k_optoma</h4>
-                                    <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_optoma/monitors_4k">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="diagonal"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                        <h2>&lt;Accessories&gt;</h2>
-
-                            <!--MICE-->
-                            <h3>&lt;Mice&gt;</h3>
-                                    <h4>mouse_basilisk</h4>
-                                    <xsl:for-each select="computer/accessories/mice/mouse_basilisk/mouse">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>mouse_asus</h4>
-                                    <xsl:for-each select="computer/accessories/mice/mouse_asusmouse">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>mouse_kensingto</h4>
-                                    <xsl:for-each select="computer/accessories/mice/mouse_kensingto/mouse">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>mouse_steelseries</h4>
-                                    <xsl:for-each select="computer/accessories/mice/mouse_steelseries/mouse">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>mouse_corsair</h4>
-                                    <xsl:for-each select="computer/accessories/mice/mouse_corsair/mouse">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-
-                        <!--KEYBOARDS-->
-                        <h3>&lt;Keyboards&gt;</h3>
-                            <h4>keyboard_magic_keyboard</h4>
-                                    <xsl:for-each select="computer/accessories/keyboards/keyboard_magic_keyboard/keyboard">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>keyboard_logitech</h4>
-                                    <xsl:for-each select="computer/accessories/keyboards/keyboard_logitech/keyboard">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>keyboard_yenkee</h4>
-                                    <xsl:for-each select="computer/accessories/keyboards/keyboard_yenkee/keyboard">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>keyboard_dell</h4>
-                                    <xsl:for-each select="computer/accessories/keyboards/keyboard_dell/keyboard">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>keyboard_razer</h4>
-                                    <xsl:for-each select="computer/accessories/keyboards/keyboard_razer/keyboard">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
-
-                                    <h4>keyboard_cooler_master</h4>
-                                    <xsl:for-each select="computer/accessories/keyboards/keyboard_cooler_master/keyboard">
-                                        <p>
-                                            <span>&lt;part&gt;</span>
-                                            <span><xsl:value-of select="name"/></span>
-                                            <span><xsl:value-of select="connecting"/></span>
-                                            <span>&#x2014;</span>
-                                            <span><xsl:value-of select="price"/></span>
-                                            <span>,-</span>
-                                            <span>&lt;/part&gt;</span>
-                                        </p>
-                                    </xsl:for-each>
-                                    <br/>
+        &lt;Processors &quot;amd&quot;&gt;
+        <xsl:for-each select="computer/hardware/processors/processor_amd/processor">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="model"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
 
 
 
+        &lt;Monitors&gt;
 
-            </body>
-        </html>
+        <!--FULL HD-->
+        &lt;Monitor Full HD&gt;
+
+        full_hd_apple
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_apple/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        full_hd_eizo
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_eizo/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        full_hd_samsung
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_samsung/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        full_hd_acer
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_acer/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        full_hd_aoc
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_aoc/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        full_hd_corsair
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_corsair/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        full_hd_viewsonic
+        <xsl:for-each select="computer/monitors/monitor_full_hd/full_hd_viewsonic/full_hd">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+
+        <!--4K-->
+        &lt;Monitor 4K&gt;
+
+        monitors_4k_lg
+        <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_lg/monitors_4k">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        monitors_4k_samsung
+        <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_samsung/monitors_4k">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        monitors_4k_triumph_board
+        <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_triumph_board/monitors_4k">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        monitors_4k_gigabyte
+        <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_gigabyte/monitors_4k">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        monitors_4k_panasonic
+        <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_panasonic/monitors_4k">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        monitors_4k_optoma
+        <xsl:for-each select="computer/monitors/monitor_monitors_4k/monitors_4k_optoma/monitors_4k">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="diagonal"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        &lt;Accessories&gt;
+
+        <!--MICE-->
+        &lt;Mice&gt;
+        mouse_basilisk
+        <xsl:for-each select="computer/accessories/mice/mouse_basilisk/mouse">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        mouse_asus
+        <xsl:for-each select="computer/accessories/mice/mouse_asusmouse">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        mouse_kensingto
+        <xsl:for-each select="computer/accessories/mice/mouse_kensingto/mouse">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        mouse_steelseries
+        <xsl:for-each select="computer/accessories/mice/mouse_steelseries/mouse">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        mouse_corsair
+        <xsl:for-each select="computer/accessories/mice/mouse_corsair/mouse">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+
+        <!--KEYBOARDS-->
+        &lt;Keyboards&gt;
+        keyboard_magic_keyboard
+        <xsl:for-each select="computer/accessories/keyboards/keyboard_magic_keyboard/keyboard">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        keyboard_logitech
+        <xsl:for-each select="computer/accessories/keyboards/keyboard_logitech/keyboard">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        keyboard_yenkee
+        <xsl:for-each select="computer/accessories/keyboards/keyboard_yenkee/keyboard">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        keyboard_dell
+        <xsl:for-each select="computer/accessories/keyboards/keyboard_dell/keyboard">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
+        keyboard_razer
+        <xsl:for-each select="computer/accessories/keyboards/keyboard_razer/keyboard">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part
+        </xsl:for-each>
+
+
+        keyboard_cooler_master
+        <xsl:for-each select="computer/accessories/keyboards/keyboard_cooler_master/keyboard">
+                &lt;part&gt;<xsl:value-of select="name"/><xsl:value-of select="connecting"/>&#x2014;<xsl:value-of select="price"/>,-&lt;part&gt;
+        </xsl:for-each>
+
+
     </xsl:template>
-    
-    
+
 </xsl:stylesheet>
