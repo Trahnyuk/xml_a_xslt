@@ -117,12 +117,10 @@
                     <price>26890</price>
                 </item>
 
-
                 <item>
                     <type>processor</type>
                     <name>intel_core_i9_10940x</name>
                     <processor_series>intel_core_i9</processor_series>
-                    <model>intel_core_i9_10940x</model>
                     <processor_frequency>3.3ghz</processor_frequency>
                     <price>20990</price>
                 </item>
@@ -131,7 +129,6 @@
                     <type>processor</type>
                     <name>intel_xeon_gold_6336y</name>
                     <processor_series>intel_xeon_gold</processor_series>
-                    <model>xeon_gold_6336y</model>
                     <processor_frequency>2.4ghz</processor_frequency>
                     <price>55790</price>
                 </item>
@@ -140,7 +137,6 @@
                     <type>processor</type>
                     <name>intel_core_i7_12700k</name>
                     <processor_series>intel_core_i7</processor_series>
-                    <model>intel_core_i7_12700k</model>
                     <processor_frequency>3.6ghz</processor_frequency>
                     <price>10990</price>
                 </item>
@@ -150,7 +146,6 @@
                     <type>processor</type>
                     <name>amd_ryzen_threadripper_3960x</name>
                     <processor_series>amd_ryzen_threadripper</processor_series>
-                    <model>amd_ryzen_threadripper_3960X</model>
                     <processor_frequency>3.8ghz</processor_frequency>
                     <price>38190</price>
                 </item>
@@ -159,18 +154,14 @@
                     <type>processor</type>
                     <name>amd_ryzen_9_5950x</name>
                     <processor_series>amd_ryzen_9</processor_series>
-                    <model>amd_ryzen_9_5950x</model>
                     <processor_frequency>3.4ghz</processor_frequency>
                     <price>19590</price>
                 </item>
-
-
 
                 <item>
                     <type>processor</type>
                     <name>amd_ryzen_7_5800x</name>
                     <processor_series> amd_ryzen_7</processor_series>
-                    <model>amd_ryzen_7_5800x</model>
                     <processor_frequency>3.8ghz</processor_frequency>
                     <price>9690</price>
                 </item>
