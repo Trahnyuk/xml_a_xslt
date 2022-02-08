@@ -523,7 +523,6 @@
     </hardware>
 
 
-
     <monitors>
 
                 <item>
@@ -644,9 +643,7 @@
     </monitors>
 
 
-
     <accessories>
-
 
                 <item>
                     <type>mouse</type>
