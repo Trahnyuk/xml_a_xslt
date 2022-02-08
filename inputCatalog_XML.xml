@@ -529,7 +529,7 @@
                     <name>eizo_coloredge_cg319x</name>
                     <diagonal>31.5&quot;</diagonal>
                     <panel_type>ips</panel_type>
-                    <ptice>123990</ptice>
+                    <price>123990</price>
                 </item>
 
 
@@ -538,7 +538,7 @@
                     <name>samsung_odyssey_g9_neo</name>
                     <diagonal>49&quot;</diagonal>
                     <panel_type>va</panel_type>
-                    <ptice>49990</ptice>
+                    <price>49990</price>
                 </item>
 
 
@@ -547,7 +547,7 @@
                     <name>acer_x27_predator</name>
                     <diagonal>27&quot;</diagonal>
                     <panel_type>ips</panel_type>
-                    <ptice>48636</ptice>
+                    <price>48636</price>
                 </item>
 
 
@@ -556,7 +556,7 @@
                     <name>aoc_u32u1</name>
                     <diagonal>32&quot;</diagonal>
                     <panel_type>ips</panel_type>
-                    <ptice>20062</ptice>
+                    <price>20062</price>
                 </item>
 
 
@@ -565,7 +565,7 @@
                     <name>corsair_xeneon_32qhd165</name>
                     <diagonal>32&quot;</diagonal>
                     <panel_type>ips</panel_type>
-                    <ptice>19590</ptice>
+                    <price>19590</price>
                 </item>
 
 
@@ -574,7 +574,7 @@
                     <name>benq_sw270c</name>
                     <diagonal>27&quot;</diagonal>
                     <panel_type>ips</panel_type>
-                    <ptice>20990</ptice>
+                    <price>20990</price>
                 </item>
 
 
@@ -583,7 +583,7 @@
                     <name>viewsonic_colorpro_vp2785_2k</name>
                     <diagonal>27&quot;</diagonal>
                     <panel_type>ips</panel_type>
-                    <ptice>20290</ptice>
+                    <price>20290</price>
                 </item>
 
 
@@ -593,7 +593,7 @@
                     <name>samsung_flip_2</name>
                     <diagonal>55&quot;</diagonal>
                     <panel_type>led</panel_type>
-                    <ptice>59990</ptice>
+                    <price>59990</price>
                 </item>
 
 
@@ -602,7 +602,7 @@
                     <name>triumph_board_interactive_flat_panel</name>
                     <diagonal>98&quot;</diagonal>
                     <panel_type>led</panel_type>
-                    <ptice>259000</ptice>
+                    <price>259000</price>
                 </item>
 
 
@@ -611,7 +611,7 @@
                     <name>gigabyte_aorus_fo48u</name>
                     <diagonal>48&quot;</diagonal>
                     <panel_type>oled</panel_type>
-                    <ptice>38990</ptice>
+                    <price>38990</price>
                 </item>
 
                 <item>
@@ -619,7 +619,7 @@
                     <name>gigabyte_aorus_fv43u</name>
                     <diagonal>43&quot;</diagonal>
                     <panel_type>qled</panel_type>
-                    <ptice>25911</ptice>
+                    <price>25911</price>
                 </item>
 
 
@@ -628,7 +628,7 @@
                     <name>panasonic_th_43cqe1w</name>
                     <diagonal>43&quot;</diagonal>
                     <panel_type>led</panel_type>
-                    <ptice>18990</ptice>
+                    <price>18990</price>
                 </item>
 
     </monitors>

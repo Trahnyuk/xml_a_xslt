@@ -6,6 +6,8 @@
 
         <computer>
 
+            <components_flat>
+
             <hardware>
 
                 <xsl:for-each select="computer/hardware">
@@ -17,7 +19,7 @@
                             <parametrs><xsl:value-of select="concat(./model, ./ram_size,
                             ./processor_series, ./processor_frequency, ./memory_type,
                             ./format, ./storage_capacity, ./motherboart_memory_type,
-                            ./motherboard_form_factor, ./size, ./size, ./front_panel_location)"/></parametrs>
+                            ./motherboard_form_factor, ./size, ./front_panel_location)"/></parametrs>
 
                         </product>
                     </xsl:for-each>
@@ -50,7 +52,7 @@
 
                             <name><xsl:value-of select="type"/> (<xsl:value-of select="name"/>) - <xsl:value-of select="price"/>,-</name>
 
-                            <parametrs><xsl:value-of select="concat(./connectiong, ./interface)"/></parametrs>
+                            <parametrs><xsl:value-of select="concat(./connecting, ./interface)"/></parametrs>
 
                         </product>
                     </xsl:for-each>
@@ -58,9 +60,27 @@
 
             </accessories>
 
+            </components_flat>
+
         </computer>
 
 
+
+        <sorting_by_price>
+            <products>
+                <xsl:for-each select="computer/*">
+                    <xsl:for-each select="./*">
+
+                        <xsl:sort select="price" data-type="number" order="descending"/>
+
+                        <xsl:if test="price&lt;15000">
+                        <Product> /<xsl:value-of select="type"/>/  <xsl:value-of select="name"/> - (<xsl:value-of select="price"/>,-)</Product>
+                        </xsl:if>
+
+                    </xsl:for-each>
+                </xsl:for-each>
+            </products>
+        </sorting_by_price>
 
     </xsl:template>
 
