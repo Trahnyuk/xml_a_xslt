@@ -76,19 +76,14 @@
 
 
         <sorting_by_price>
-                <products>
                     <xsl:for-each select="computer/*">
-
+                        <xsl:for-each select="./*">
                             <xsl:sort select="price" data-type="number" order="descending"/>
-
-                            <xsl:if test="price&lt;15000">
-
-                            <Product> /<xsl:value-of select="type"/>/  <xsl:value-of select="name"/> - (<xsl:value-of select="price"/>,-)</Product>
-
-                            </xsl:if>
-
+                                <xsl:if test="price&lt;15000">
+                                    <Product> /<xsl:value-of select="type"/>/  <xsl:value-of select="name"/> - (<xsl:value-of select="price"/>,-)</Product>
+                                </xsl:if>
+                        </xsl:for-each>
                     </xsl:for-each>
-                </products>
         </sorting_by_price>
 
 
@@ -96,7 +91,7 @@
 
                 <xsl:for-each select="computer/*">
                     <xsl:for-each select="./*">
-                            <xsl:if test="contains(./name, 'z') or constains(./name, 'Z')">
+                            <xsl:if test="contains(./name,'z') or contains(./name,'Z')">
                                 <name>
                                     <xsl:value-of select="./name"/>
                                 </name>

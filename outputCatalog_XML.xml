@@ -398,9 +398,56 @@
             </product>
         </accessories>
     </components_flat>
-</computer><sorting_by_price>
-    <products/>
-</sorting_by_price><sort_by_leter>
+</computer>
+<sorting_by_price>
+    <Product> /ram_memory/  corsair_16gb_kit_ddr4_5100mhz_cl19_ballistix_max" - (13990,-)</Product>
+    <Product> /ssd_driver/  wd_ultrastar_dc_sn640_1920gb - (12690,-)</Product>
+    <Product> /case/  lian_li_tr_01a_odyssey_x_black - (12490,-)</Product>
+    <Product> /motherboard/  asus_rog_strix_z690_f_gaming_wifi - (11790,-)</Product>
+    <Product> /ram_memory/  corsair_64gb_kit_ddr4_3600mhz_CL18_vengeance_rgb_rt - (11690,-)</Product>
+    <Product> /ram_memory/  g._skill_32gb_kit_ddr5_6000mhz_cl40_trident_z5_silver - (11090,-)</Product>
+    <Product> /processor/  intel_core_i7_12700k - (10990,-)</Product>
+    <Product> /ram_memory/  hyperx_64gb_ddr4_3200mhz_cl16_xmp_rgb_predator_kit - (10026,-)</Product>
+    <Product> /graphic_card/  msi_geforce_gtx_1650_4gt_lp_oc - (10000,-)</Product>
+    <Product> /ssd_driver/  samsung_870_qvo_4tb - (9999,-)</Product>
+    <Product> /ram_memory/  corsair_32gb_kit_ddr4_4000mhz_cl19_dominator_platinum_rgb_white - (9801,-)</Product>
+    <Product> /motherboard/  msi_mpg_z690_carbon_wifi - (9699,-)</Product>
+    <Product> /processor/  amd_ryzen_7_5800x - (9690,-)</Product>
+    <Product> /motherboard/  gigabyte_z690_aorus_pro - (8904,-)</Product>
+    <Product> /ram_memory/  patriot_viper_steel_rgb_64gb_kit_ddr4_3600mhz_cl20 - (8590,-)</Product>
+    <Product> /motherboard/  asus_rog_strix_z590_e_gaming_wifi - (8579,-)</Product>
+    <Product> /ram_memory/  hpe_16gb_ddr4_2666mhz_ecc_registered_dual_rank_x8_smart - (8199,-)</Product>
+    <Product> /case/  seasonic_syncro_q704_syncro_dpc_850_platinum - (7499,-)</Product>
+    <Product> /motherboard/  asrock_x570_taichi - (7490,-)</Product>
+    <Product> /case/  corsair_icue_7000x_rgb_white - (7490,-)</Product>
+    <Product> /case/  asus_rog_strix_helios_white - (7399,-)</Product>
+    <Product> /graphic_card/  msi_geforce_n_730k_2gd3h - (7000,-)</Product>
+    <Product> /hdd_driver/  wd_red_pro_8tb - (6969,-)</Product>
+    <Product> /case/  asus_rog_strix_helios_white - (6690,-)</Product>
+    <Product> /hdd_driver/  seagate_ironwolf_pro_8tb_cmr - (6490,-)</Product>
+    <Product> /ssd_driver/  kingston_dc500m_960gb - (6379,-)</Product>
+    <Product> /case/  fractal_design_define_7_xl_black - (5999,-)</Product>
+    <Product> /hdd_driver/  wd_gold_8tb - (5849,-)</Product>
+    <Product> /ssd_driver/  samsung_870_evo_2tb - (5489,-)</Product>
+    <Product> /graphic_card/  asus_geforce_gt_730_sl_2gbdb_brk - (5000,-)</Product>
+    <Product> /case/  cooler_master_masterframe_700 - (4969,-)</Product>
+    <Product> /case/  nzxt_h710i_matte_black_red - (4789,-)</Product>
+    <Product> /hdd_driver/  wd_red_4tb - (2489,-)</Product>
+    <Product> /hdd_driver/  seagate_ironwolf_4tb_cmr - (2399,-)</Product>
+    <Product> /hdd_driver/  seagate_barracuda_4tb - (2399,-)</Product>
+    <Product> /mouse/  basilisk_ultimate_ireless_gaming_mouse - (4690,-)</Product>
+    <Product> /mouse/  asus_rog_spatha_x - (3779,-)</Product>
+    <Product> /mouse/  steelseries_prime_mini_wireless - (3772,-)</Product>
+    <Product> /mouse/  kensington_slimblade - (3543,-)</Product>
+    <Product> /keyboard/  magic_keyboard_s_ciselnou_klavesnici_ceska - (3389,-)</Product>
+    <Product> /mouse/  corsair_dark_core_rgb_pro_se - (2990,-)</Product>
+    <Product> /keyboard/  dell_premier_km7321w_czsk - (2299,-)</Product>
+    <Product> /keyboard/  yenkee_ykb_3400_panzer - (1999,-)</Product>
+    <Product> /keyboard/  razer_ornata_v2 - (1999,-)</Product>
+    <Product> /keyboard/  cooler_master_mk110_rgb_led_black_cz - (1039,-)</Product>
+    <Product> /keyboard/  logitech_wireless_touch_keyboard_k400_plus - (849,-)</Product>
+</sorting_by_price>
+<sort_by_leter>
     <name>amd_ryzen_threadripper_3960x</name>
     <name>amd_ryzen_9_5950x</name>
     <name>amd_ryzen_7_5800x</name>
