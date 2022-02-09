@@ -10,19 +10,25 @@
 
             <hardware>
 
-                <xsl:for-each select="computer/hardware">
-                    <xsl:for-each select="./*">
-                        <product>
+                <xsl:for-each select="computer/hardware/*">
 
+                    <product-position>
+                        <xsl:variable name=""
+                    </product-position>    
+                    
+                        <product>
+                            <item-position>
+                                <xsl:value-of select="position()" />
+                            </item-position>
                             <name>/<xsl:value-of select="type"/>/ (<xsl:value-of select="name"/>) - <xsl:value-of select="price"/>,-</name>
 
-                            <parametrs><xsl:value-of select="concat(./model, ./ram_size,
+                            <parametrs> <xsl:value-of select="concat (./model,  ./ram_size,
                             ./processor_series, ./processor_frequency, ./memory_type,
                             ./format, ./storage_capacity, ./motherboart_memory_type,
                             ./motherboard_form_factor, ./size, ./front_panel_location)"/></parametrs>
 
                         </product>
-                    </xsl:for-each>
+
                 </xsl:for-each>
 
             </hardware>
