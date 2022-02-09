@@ -88,7 +88,6 @@
 
 
         <sort_by_leter>
-
                 <xsl:for-each select="computer/*">
                     <xsl:for-each select="./*">
                             <xsl:if test="contains(./name,'z') or contains(./name,'Z')">
@@ -98,7 +97,6 @@
                             </xsl:if>
                     </xsl:for-each>
                 </xsl:for-each>
-
         </sort_by_leter>
 
 
