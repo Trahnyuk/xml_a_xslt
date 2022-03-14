@@ -16,7 +16,7 @@
 
     <wsdl:portType name="insuranceApplication">
         <wsdl:operation name="insurance">
-            <wsdl:input message="tns:insuranceApplication" name="insuranceApplication"/>
+            <wsdl:input message="tns:insuranceApplicationRequest" name="insuranceApplicationRequest"/>
         </wsdl:operation>
     </wsdl:portType>
 
