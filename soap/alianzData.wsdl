@@ -1,0 +1,41 @@
+<wsdl:definition xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                 xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                 xmlns:schema="http://Alianz.com/schemas"
+                 xmlns:tns="http://Alianz.com/definitions"
+                 targetNameSpace="http://nicordesigns.com/ws/definitions">
+
+    <wsdl:types>
+        <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+            <xsd:import namespace="http://Alianz.com/schemas" schemaLocation="alianzData.xsd"/>
+        </xsd:schema>
+    </wsdl:types>
+
+    <wsdl:message name="insuranceApplication">
+        <wsdl:part element="schema:insuranceApplication" name="insuranceApplication"/>
+    </wsdl:message>
+
+    <wsdl:portType name="insuranceApplication">
+        <wsdl:operation name="insurance">
+            <wsdl:input message="tns:insuranceApplication" name="insuranceApplication"/>
+        </wsdl:operation>
+    </wsdl:portType>
+
+    <wsdl:binding name="insuranceApplicationBinding" type="tns:insuranceApplication">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http/"/>
+        <wsdl:operation name="insurance">
+            <soap:operation soapAction="http://Alianz.com/insuranceApplication">
+                <wsdl:input name="insuranceApplication">
+                    <soap:body use="literal"/>
+                </wsdl:input>
+            </soap:operation>
+        </wsdl:operation>
+    </wsdl:binding>
+
+    <wsdl:service name="insuranceApplicationService">
+        <wsdl:port binding="tns:insuranceApplicationBinding" name="insuranceApplicationPort">
+            <soap:address location="http://localhost:8080/insuranceApplicationService/"/>
+        </wsdl:port>
+
+    </wsdl:service>
+
+</wsdl:definition>

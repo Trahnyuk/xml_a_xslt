@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-transform type="text/xsl" href="computerCatalog.xsl"?>
+
+<computer>
+    <hardware>
+                <item>
+                    <type>graphic_card</type>
+                    <name>msi_geforce_rtx_3060_ventus_2x_12g</name>
+                    <model>rtx_3060</model>
+                    <ram_size>12gb</ram_size>
+                    <price>50000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>msi_geforce_rtx_3090_suprim_24g</name>
+                    <model>rtx_3090</model>
+                    <ram_size>24gb</ram_size>
+                    <price>70000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>msi_geforce_rtx_3080_ventus_3x_10g</name>
+                    <model>rtx_3080</model>
+                    <ram_size>10gb</ram_size>
+                    <price>45000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>msi_geforce_rtx_3090_ventus_3x_24g</name>
+                    <model>rtx_3090</model>
+                    <ram_size>24gb</ram_size>
+                    <price>65000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>msi_geforce_gtx_1650_4gt_lp_oc</name>
+                    <model>gtx_1650</model>
+                    <ram_size>4gb</ram_size>
+                    <price>10000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>msi_geforce_n_730k_2gd3h</name>
+                    <model>gt_730</model>
+                    <ram_size>2gb</ram_size>
+                    <price>7000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>inno3d_geforce_rtx_3080_ti_ichill_frostbite</name>
+                    <model>rtx_3080_ti</model>
+                    <ram_size>12gb</ram_size>
+                    <price>60000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>inno3d_geforce_rtx_3080_twin_x2_oc_lhr</name>
+                    <model>rtx_3080</model>
+                    <ram_size>10gb</ram_size>
+                    <price>45000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>palit_geforce_rtx_3070_ti_gaming_pro_8gb</name>
+                    <model>rtx_3070_ti</model>
+                    <ram_size>8gb</ram_size>
+                    <price>30000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>evga_geforce_rtx_3060_ti_xc_black_lhr</name>
+                    <model>rtx_3060_ti</model>
+                    <ram_size>8gb</ram_size>
+                    <price>30000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>grainward_geForce_gtx_1660_ti_6g_ghost</name>
+                    <model>gtx_1660_ti</model>
+                    <ram_size>6gb</ram_size>
+                    <price>25000</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>grainward_geforce_gtx_1660_super_g6_ghost_oc</name>
+                    <model>gtx_1660</model>
+                    <ram_size>6gb</ram_size>
+                    <price>23500</price>
+                </item>
+
+                <item>
+                    <type>graphic_card</type>
+                    <name>asus_geforce_gt_730_sl_2gbdb_brk</name>
+                    <model>gt_730</model>
+                    <ram_size>2gb</ram_size>
+                    <price>5000</price>
+                </item>
+
+
+                <item>
+                    <type>processor</type>
+                    <name>intel_core_i9_10980xe</name>
+                    <processor_series>intel_core_i9</processor_series>
+                    <model>intel_core_i9_10980xe</model>
+                    <processor_frequency>3.0ghz</processor_frequency>
+                    <price>26890</price>
+                </item>
+
+                <item>
+                    <type>processor</type>
+                    <name>intel_core_i9_10940x</name>
+                    <processor_series>intel_core_i9</processor_series>
+                    <processor_frequency>3.3ghz</processor_frequency>
+                    <price>20990</price>
+                </item>
+
+                <item>
+                    <type>processor</type>
+                    <name>intel_xeon_gold_6336y</name>
+                    <processor_series>intel_xeon_gold</processor_series>
+                    <processor_frequency>2.4ghz</processor_frequency>
+                    <price>55790</price>
+                </item>
+
+                <item>
+                    <type>processor</type>
+                    <name>intel_core_i7_12700k</name>
+                    <processor_series>intel_core_i7</processor_series>
+                    <processor_frequency>3.6ghz</processor_frequency>
+                    <price>10990</price>
+                </item>
+
+
+                <item>
+                    <type>processor</type>
+                    <name>amd_ryzen_threadripper_3960x</name>
+                    <processor_series>amd_ryzen_threadripper</processor_series>
+                    <processor_frequency>3.8ghz</processor_frequency>
+                    <price>38190</price>
+                </item>
+
+                <item>
+                    <type>processor</type>
+                    <name>amd_ryzen_9_5950x</name>
+                    <processor_series>amd_ryzen_9</processor_series>
+                    <processor_frequency>3.4ghz</processor_frequency>
+                    <price>19590</price>
+                </item>
+
+                <item>
+                    <type>processor</type>
+                    <name>amd_ryzen_7_5800x</name>
+                    <processor_series> amd_ryzen_7</processor_series>
+                    <processor_frequency>3.8ghz</processor_frequency>
+                    <price>9690</price>
+                </item>
+
+        <!-- processors END-->
+
+
+        <!--ram mem-->
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>corsair_64gb_kit_ddr4_3600mhz_CL18_vengeance_rgb_rt</name>
+                    <memory_type>ddr4</memory_type>
+                    <ram_size>64gb</ram_size>
+                    <price>11690</price>
+                </item>
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>corsair_32gb_kit_ddr4_4000mhz_cl19_dominator_platinum_rgb_white</name>
+                    <memory_type>ddr4</memory_type>
+                    <ram_size>32gb</ram_size>
+                    <price>9801</price>
+                </item>
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>corsair_128gb_kit_ddr4_3200mhz_cl16_venegance_rgb_pro_sl</name>
+                    <memory_type>ddr4</memory_type>
+                    <ram_size>128gb</ram_size>
+                    <price>17900</price>
+                </item>
+
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>corsair_16gb_kit_ddr4_5100mhz_cl19_ballistix_max"</name>
+                    <memory_type>ddr4</memory_type>
+                    <ram_size>16gb</ram_size>
+                    <price>13990</price>
+                </item>
+
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>g._skill_32gb_kit_ddr5_6000mhz_cl40_trident_z5_silver</name>
+                    <memory_type>ddr5</memory_type>
+                    <ram_size>32gb</ram_size>
+                    <price>11090</price>
+                </item>
+
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>hyperx_64gb_ddr4_3200mhz_cl16_xmp_rgb_predator_kit</name>
+                    <memory_type>ddr4</memory_type>
+                    <ram_size>64gb</ram_size>
+                    <price>10026</price>
+                </item>
+
+
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>patriot_viper_steel_rgb_64gb_kit_ddr4_3600mhz_cl20</name>
+                    <memory_type>ddr4</memory_type>
+                    <ram_size>64gb</ram_size>
+                    <price>8590</price>
+                </item>
+
+
+
+                <item>
+                    <type>ram_memory</type>
+                    <name>hpe_16gb_ddr4_2666mhz_ecc_registered_dual_rank_x8_smart</name>
+                    <memory_type>rrd4</memory_type>
+                    <ram_size>16gb</ram_size>
+                    <price>8199</price>
+                </item>
+
+
+
+                    <item>
+                        <type>hdd_driver</type>
+                        <name>seagate_ironwolf_pro_8tb_cmr</name>
+                        <format>3.5&quot;</format>
+                        <storage_capacity>8.000_gb</storage_capacity>
+                        <price>6490</price>
+                    </item>
+
+                    <item>
+                        <type>hdd_driver</type>
+                        <name>wd_red_pro_8tb</name>
+                        <format>3.5&quot;</format>
+                        <storage_capacity>8.000_gb</storage_capacity>
+                        <price>6969</price>
+                    </item>
+
+                    <item>
+                        <type>hdd_driver</type>
+                        <name>wd_red_4tb</name>
+                        <format>3.5&quot;</format>
+                        <storage_capacity>4.000_gb</storage_capacity>
+                        <price>2489</price>
+                    </item>
+
+                    <item>
+                        <type>hdd_driver</type>
+                        <name>wd_gold_8tb</name>
+                        <format>3.5&quot;</format>
+                        <storage_capacity>8.000_tb</storage_capacity>
+                        <price>5849</price>
+                    </item>
+
+
+                    <item>
+                        <type>hdd_driver</type>
+                        <name>seagate_ironwolf_4tb_cmr</name>
+                        <format>3.5&quot;</format>
+                        <storage_capacity>4.000_gb</storage_capacity>
+                        <price>2399</price>
+                    </item>
+
+
+                    <item>
+                        <type>hdd_driver</type>
+                        <name>seagate_barracuda_4tb</name>
+                        <format>3.5&quot;</format>
+                        <storage_capacity>4.000tb</storage_capacity>
+                        <price>2399</price>
+                    </item>
+
+
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>intel_optane_p5800x_400gb</name>
+                        <format>2.5&quot;</format>
+                        <storage_capacity>400gb</storage_capacity>
+                        <price>29490</price>
+                    </ssd>
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>samsung_870_qvo_8tb</name>
+                        <format>2.5&quot;</format>
+                        <storage_capacity>8,000_gb</storage_capacity>
+                        <price>19990</price>
+                    </ssd>
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>samsung_870_qvo_4tb</name>
+                        <format>2.5&quot;</format>
+                        <storage_capacity>4.000_gb</storage_capacity>
+                        <price>9999</price>
+                    </ssd>
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>samsung_870_evo_2tb</name>
+                        <format>2.5&quot;</format>
+                        <storage_capacity>2.000_tb</storage_capacity>
+                        <price>5489</price>
+                    </ssd>
+
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>corsair_mp600_core_4tb</name>
+                        <format>m.2</format>
+                        <storage_capacity>4.000_gb</storage_capacity>
+                        <price>15890</price>
+                    </ssd>
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>wd_ultrastar_dc_sn640_1920gb</name>
+                        <format>u.2</format>
+                        <storage_capacity>1.920_gb</storage_capacity>
+                        <price>12690</price>
+                    </ssd>
+
+                    <ssd>
+                        <type>ssd_driver</type>
+                        <name>kingston_dc500m_960gb</name>
+                        <format>2.5&quot;</format>
+                        <storage_capacity>960_gb</storage_capacity>
+                        <price>6379</price>
+                    </ssd>
+
+
+
+
+                <item>
+                    <type>motherboard</type>
+                    <name>asus_rog_maximus_xiii_extreme_glacial</name>
+                    <soket>intel_1200</soket>
+                    <motherboart_memory_type>ddr4</motherboart_memory_type>
+                    <motherboard_form_factor>eatx</motherboard_form_factor>
+                    <price>36690</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>asus_rog_maximus_z690_apex</name>
+                    <soket>intel_lga1700</soket>
+                    <motherboart_memory_type>ddr5</motherboart_memory_type>
+                    <motherboard_form_factor>atx</motherboard_form_factor>
+                    <price>16990</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>asus_rog_strix_z690_f_gaming_wifi</name>
+                    <soket>intel_lga1700</soket>
+                    <motherboart_memory_type>ddr5</motherboart_memory_type>
+                    <motherboard_form_factor>atx</motherboard_form_factor>
+                    <price>11790</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>asus_rog_strix_z590_e_gaming_wifi</name>
+                    <soket>intel_1200</soket>
+                    <motherboart_memory_type>ddr4</motherboart_memory_type>
+                    <motherboard_form_factor>atx</motherboard_form_factor>
+                    <price>8579</price>
+                </item>
+
+
+                <item>
+                    <type>motherboard</type>
+                    <name>gigabyte_x570_aorus_extreme</name>
+                    <soket>amd_am4</soket>
+                    <motherboart_memory_type>ddr4</motherboart_memory_type>
+                    <motherboard_form_factor>eatx</motherboard_form_factor>
+                    <price>19290</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>gigabyte_z690_aorus_pro</name>
+                    <soket>intel_lga1700</soket>
+                    <motherboart_memory_type>ddr5</motherboart_memory_type>
+                    <motherboard_form_factor>atx</motherboard_form_factor>
+                    <price>8904</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>evga_z590_dark</name>
+                    <soket>intel_1200</soket>
+                    <motherboart_memory_type>ddr4</motherboart_memory_type>
+                    <motherboard_form_factor>eatx</motherboard_form_factor>
+                    <price>16990</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>msi_mpg_z690_carbon_wifi</name>
+                    <soket>intel_lga1700</soket>
+                    <motherboart_memory_type>atx</motherboart_memory_type>
+                    <motherboard_form_factor>ddr5</motherboard_form_factor>
+                    <price>9699</price>
+                </item>
+
+                <item>
+                    <type>motherboard</type>
+                    <name>asrock_x570_taichi</name>
+                    <soket>amd_am4</soket>
+                    <motherboart_memory_type>ddr4</motherboart_memory_type>
+                    <motherboard_form_factor>atx</motherboard_form_factor>
+                    <price>7490</price>
+                </item>
+
+
+                <item>
+                    <type>case</type>
+                    <name>asus_rog_strix_helios_white</name>
+                    <size>midi_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>7399</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>asus_rog_strix_helios_white</name>
+                    <size>midi_tower</size>
+                    <front_panel_location>front</front_panel_location>
+                    <price>6690</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>lian_li_tr_01a_odyssey_x_black</name>
+                    <size>big_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>12490</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>msi_mpg_velox_100r</name>
+                    <size>midi_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>49990</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>seasonic_syncro_q704_syncro_dpc_850_platinum</name>
+                    <size>midi_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>7499</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>corsair_icue_7000x_rgb_white</name>
+                    <size>big_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>7490</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>fractal_design_define_7_xl_black</name>
+                    <size>midi_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>5999</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>cooler_master_masterframe_700</name>
+                    <size>big_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>4969</price>
+                </item>
+
+                <item>
+                    <type>case</type>
+                    <name>nzxt_h710i_matte_black_red</name>
+                    <size>midi_tower</size>
+                    <front_panel_location>top</front_panel_location>
+                    <price>4789</price>
+                </item>
+
+    </hardware>
+
+
+    <monitors>
+
+                <item>
+                    <type>full_hd</type>
+                    <name>apple_pro_display_xdr_nano_texture_glass</name>
+                    <diagonal>32&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>164990</price>
+                </item>
+
+                <item>
+                    <type>full_hd</type>
+                    <name>eizo_coloredge_cg319x</name>
+                    <diagonal>31.5&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>123990</price>
+                </item>
+
+
+                <item>
+                    <type>full_hd</type>
+                    <name>samsung_odyssey_g9_neo</name>
+                    <diagonal>49&quot;</diagonal>
+                    <panel_type>va</panel_type>
+                    <price>49990</price>
+                </item>
+
+
+                <item>
+                    <type>full_hd</type>
+                    <name>acer_x27_predator</name>
+                    <diagonal>27&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>48636</price>
+                </item>
+
+
+                <item>
+                    <type>full_hd</type>
+                    <name>aoc_u32u1</name>
+                    <diagonal>32&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>20062</price>
+                </item>
+
+
+                <item>
+                    <type>full_hd</type>
+                    <name>corsair_xeneon_32qhd165</name>
+                    <diagonal>32&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>19590</price>
+                </item>
+
+
+                <item>
+                    <type>full_hd</type>
+                    <name>benq_sw270c</name>
+                    <diagonal>27&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>20990</price>
+                </item>
+
+
+                <item>
+                    <type>full_hd</type>
+                    <name>viewsonic_colorpro_vp2785_2k</name>
+                    <diagonal>27&quot;</diagonal>
+                    <panel_type>ips</panel_type>
+                    <price>20290</price>
+                </item>
+
+
+
+                <item>
+                    <type>4k</type>
+                    <name>samsung_flip_2</name>
+                    <diagonal>55&quot;</diagonal>
+                    <panel_type>led</panel_type>
+                    <price>59990</price>
+                </item>
+
+
+                <item>
+                    <type>4k</type>
+                    <name>triumph_board_interactive_flat_panel</name>
+                    <diagonal>98&quot;</diagonal>
+                    <panel_type>led</panel_type>
+                    <price>259000</price>
+                </item>
+
+
+                <item>
+                    <type>4k</type>
+                    <name>gigabyte_aorus_fo48u</name>
+                    <diagonal>48&quot;</diagonal>
+                    <panel_type>oled</panel_type>
+                    <price>38990</price>
+                </item>
+
+                <item>
+                    <type>4k</type>
+                    <name>gigabyte_aorus_fv43u</name>
+                    <diagonal>43&quot;</diagonal>
+                    <panel_type>qled</panel_type>
+                    <price>25911</price>
+                </item>
+
+
+                <item>
+                    <type>4k</type>
+                    <name>panasonic_th_43cqe1w</name>
+                    <diagonal>43&quot;</diagonal>
+                    <panel_type>led</panel_type>
+                    <price>18990</price>
+                </item>
+
+    </monitors>
+
+
+    <accessories>
+
+                <item>
+                    <type>mouse</type>
+                    <name>basilisk_ultimate_ireless_gaming_mouse</name>
+                    <connecting>wireless</connecting>
+                    <interface>usb</interface>
+                    <price>4690</price>
+                </item>
+
+
+                <item>
+                    <type>mouse</type>
+                    <name>asus_rog_spatha_x</name>
+                    <connecting>wireless</connecting>
+                    <interface>usb, wireless_usb_receiver</interface>
+                    <price>3779</price>
+                </item>
+
+
+                <item>
+                    <type>mouse</type>
+                    <name>kensington_slimblade</name>
+                    <connecting>wired</connecting>
+                    <interface>usb</interface>
+                    <price>3543</price>
+                </item>
+
+
+                <item>
+                    <type>mouse</type>
+                    <name>steelseries_prime_mini_wireless</name>
+                    <connecting>wireless</connecting>
+                    <interface>usb_c</interface>
+                    <price>3772</price>
+                </item>
+
+
+                <item>
+                    <type>mouse</type>
+                    <name>corsair_dark_core_rgb_pro_se</name>
+                    <connecting>wireless</connecting>
+                    <interface>bluetooth, wireless_usb_receiver</interface>
+                    <price>2990</price>
+                </item>
+
+
+
+
+                <item>
+                    <type>keyboard</type>
+                    <name>magic_keyboard_s_ciselnou_klavesnici_ceska</name>
+                    <connecting>wireless</connecting>
+                    <interface>bluetooth</interface>
+                    <price>3389</price>
+                </item>
+
+
+                <item>
+                    <type>keyboard</type>
+                    <name>logitech_wireless_touch_keyboard_k400_plus</name>
+                    <connecting>wireless</connecting>
+                    <interface>usb, wireless_usb_receiver</interface>
+                    <price>849</price>
+                </item>
+
+
+                <item>
+                    <type>keyboard</type>
+                    <name>yenkee_ykb_3400_panzer</name>
+                    <connecting>wired</connecting>
+                    <interface>usb</interface>
+                    <price>1999</price>
+                </item>
+
+
+                <item>
+                    <type>keyboard</type>
+                    <name>dell_premier_km7321w_czsk</name>
+                    <connecting>wireless</connecting>
+                    <interface>wireless_usb_receiver</interface>
+                    <price>2299</price>
+                </item>
+
+                <item>
+                    <type>keyboard</type>
+                    <name>razer_ornata_v2</name>
+                    <connecting>wired</connecting>
+                    <interface>usb</interface>
+                    <price>1999</price>
+                </item>
+
+
+                <item>
+                    <type>keyboard</type>
+                    <name>cooler_master_mk110_rgb_led_black_cz</name>
+                    <connecting>wired</connecting>
+                    <interface>usb</interface>
+                    <price>1039</price>
+                </item>
+
+    </accessories>
+
+</computer>
