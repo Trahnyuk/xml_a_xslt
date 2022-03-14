@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InsurranceAplication xmlns="http://Alianz.com/calalog/clients">
+
+        <Applicant>
+                <id-number>45689103543</id-number>
+                <firstName>Jone</firstName>
+                <lastName>Donny</lastName>
+                <Age>25</Age>
+        </Applicant>
+
+        <insurenceInfo>
+                <product>Widget Gold Insurance</product>
+                <coverageType>Full Cover</coverageType>
+                <coverageValue>Full Price</coverageValue>
+        </insurenceInfo>
+
+        <insurencePrice>
+                <wgiPrice>2000.00</wgiPrice>
+        </insurencePrice>
+
+</InsurranceAplication>
+
