@@ -1,9 +1,8 @@
-<wsdl:definition xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-                 xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-                 xmlns:schema="http://Alianz.com/schemas"
-                 xmlns:tns="http://Alianz.com/definitions"
-                 targetNamespace="http://Alianz.com/calalog/clients">
-
+<wsdl:definitions    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                     xmlns:schema="http://Alianz.com/schemas"
+                     xmlns:tns="http://Alianz.com/definitions"
+                     targetNamespace="http://Alianz.com/calalog/clients">
 
     <wsdl:types>
         <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -50,4 +49,4 @@
 
     </wsdl:service>
 
-</wsdl:definition>
+</wsdl:definitions>
