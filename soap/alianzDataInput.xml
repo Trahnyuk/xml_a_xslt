@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InsurranceAplication xmlns="http://Alianz.com/alianzData.wsdl">
+
+    <Applicant>
+        <id-number>?</id-number>
+        <firstName>?</firstName>
+        <lastName>?</lastName>
+        <Age>?</Age>
+    </Applicant>
+
+    <insurenceInfo>
+        <product>?</product>
+        <coverageType>?</coverageType>
+        <coverageValue>?</coverageValue>
+    </insurenceInfo>
+
+    <insurencePrice>
+        <wgiPrice>?</wgiPrice>
+    </insurencePrice>
+
+</InsurranceAplication>

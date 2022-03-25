@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified"
            elementFormDefault="qualified"
-           targetNamespace="http://Alianz.com/calalog/clients"
+           targetNamespace="http://Alianz.com/alianzData.wsdl"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 
   <xs:element name="InsurranceAplication">
     <xs:complexType>
       <xs:sequence>
-        <xs:element type="cli:ApplicantType" name="Applicant" xmlns:cli="http://Alianz.com/calalog/clients"/>
-        <xs:element type="cli:insurenceInfoType" name="insurenceInfo" xmlns:cli="http://Alianz.com/calalog/clients"/>
-        <xs:element type="cli:insurencePriceType" name="insurencePrice" xmlns:cli="http://Alianz.com/calalog/clients"/>
+        <xs:element type="cli:ApplicantType" name="Applicant" xmlns:cli="http://Alianz.com/alianzData.wsdl"/>
+        <xs:element type="cli:insurenceInfoType" name="insurenceInfo" xmlns:cli="http://Alianz.com/alianzData.wsdl"/>
+        <xs:element type="cli:insurencePriceType" name="insurencePrice" xmlns:cli="http://Alianz.com/alianzData.wsdl"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -23,6 +23,7 @@
       <xs:element type="xs:string" name="Age"/>
     </xs:sequence>
   </xs:complexType>
+
   <xs:complexType name="insurenceInfoType">
     <xs:sequence>
       <xs:element type="xs:string" name="product"/>
@@ -30,6 +31,7 @@
       <xs:element type="xs:string" name="coverageValue"/>
     </xs:sequence>
   </xs:complexType>
+
   <xs:complexType name="insurencePriceType">
     <xs:sequence>
       <xs:element type="xs:string" name="wgiPrice"/>
