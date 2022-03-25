@@ -1,8 +1,8 @@
-<wsdl:definition xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
-                 xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
-                 xmlns:schema="http://Alianz.com/schemas"
-                 xmlns:tns="http://Alianz.com/definitions"
-                 targetNameSpace="http://nicordesigns.com/ws/definitions">
+<wsdl:definitions    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+                     xmlns:schema="http://Alianz.com/schemas"
+                     xmlns:tns="http://Alianz.com/definitions"
+                     targetNamespace="http://Alianz.com/alianzData.wsdl">
 
     <wsdl:types>
         <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
@@ -10,7 +10,7 @@
         </xsd:schema>
     </wsdl:types>
 
-    <wsdl:message name="insuranceApplicationResquest">
+    <wsdl:message name="insuranceApplicationRequest">
         <wsdl:part element="schema:insuranceApplication" name="insuranceApplication"/>
     </wsdl:message>
 
@@ -22,7 +22,7 @@
     <wsdl:portType name="insuranceApplication">
         <wsdl:operation name="insurance">
             <wsdl:input message="tns:insuranceApplicationRequest" name="insuranceApplicationRequest"/>
-            <wsdl:output message="tns:insuranceApplicationResponse" name="insuranceApplicationResponse"
+            <wsdl:output message="tns:insuranceApplicationResponse" name="insuranceApplicationResponse"/>
         </wsdl:operation>
     </wsdl:portType>
 
@@ -49,4 +49,4 @@
 
     </wsdl:service>
 
-</wsdl:definition>
+</wsdl:definitions>
